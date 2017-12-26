@@ -1,0 +1,6 @@
+framework module Pods_joyfortSdkLib_Tests {
+  umbrella header "Pods-joyfortSdkLib_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

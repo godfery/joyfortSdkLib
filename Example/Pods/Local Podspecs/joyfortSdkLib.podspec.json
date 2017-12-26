@@ -1,0 +1,42 @@
+{
+  "name": "joyfortSdkLib",
+  "version": "0.1.0",
+  "summary": "A short description of joyfortSdkLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/godfery/joyfortSdkLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "godfery": "157062357@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/godfery/joyfortSdkLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "joyfortSdkLib/Classes/**/*.{h,m}",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ],
+    "FBSDKCoreKit": [
+      "~> 4.5"
+    ],
+    "FBSDKLoginKit": [
+      "~> 4.5"
+    ],
+    "ASIHTTPRequest": [
+
+    ],
+    "Bolts": [
+      "~> 1.0"
+    ],
+    "FBSDKShareKit": [
+      "~> 4.5"
+    ]
+  }
+}

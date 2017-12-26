@@ -1,0 +1,6 @@
+framework module joyfortSdkLib {
+  umbrella header "joyfortSdkLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
