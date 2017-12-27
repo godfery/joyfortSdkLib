@@ -546,7 +546,7 @@ static JoyfortCache * sharedSingleton = nil;
 }
 
 -(NSString*)createUserCache:(NSString*)email password:(NSString*)password{
-    NSLog(@"%@",LOGIN_TOKEN_URL);
+
     //     CREATE_USER_CACHE_UPDATE]
     ASIFormDataRequest *requestForm = [[ASIFormDataRequest alloc] initWithURL:[NSURL URLWithString: CREATE_USER_CACHE_UPDATE_IOS]];
     
