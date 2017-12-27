@@ -22,45 +22,45 @@ NSString *const KEY_USER_NAME = @"user_name";
 const int RETRY_COUNT = 3;
 
 
-NSString *const SECRET = @"eish4i*(kedjkgrefdwk23-893";
-NSString *const LOGIN_URL = @"http://50.22.62.67/game/sdk/login.php";
-
-NSString *const CREATE_USER = @"http://50.22.62.67/game/sdk/create_user.php";
-
-NSString *const LOGIN_TOKEN_URL = @"http://50.22.62.67/game/sdk/loginToken.php";
-
-NSString *const PAY_URL = @"http://50.22.62.67/payment/sdk/sdk.php";
-
-NSString *const IOS_PAY_URL = @"http://50.22.62.67/payment/sdk/ios_sdk.php";
-
-NSString *const SERVERLIST_URL = @"http://50.22.62.67/game/sdk/server.php";
-
-
-NSString *const IS_BIND_URL = @"http://50.22.62.67/game/sdk/is_bind.php";
-
-NSString *const BIND_URL = @"http://50.22.62.67/game/sdk/binded.php";
-
-NSString *const PLAY_LOG_URL = @"http://50.22.62.67/game/sdk/playlog.php";
-
-NSString *const VERSION_CHECK_URL = @"http://50.22.62.67/game/sdk/version_check.php";
-//参数配置读取
-NSString *const PARAM_URL = @"http://50.22.62.67/game/sdk/param.php";
-//mycard auth code
-NSString *const MYCARD_AUTHCODE = @"http://50.22.62.67/payment/sdk/mycard/sdk_auth.php";
-
-NSString *const MYCARD_PAY_URL = @"http://50.22.62.67/payment/sdk/mycard/pay.php";
-
-NSString *const PAYPAL_PAY_URL = @"http://50.22.62.67/payment/sdk/paypal/pay.php";
-
-//---------cache
-NSString *const BIND_CACHE_URL = @"http://50.22.62.67/game/sdk/binded_cache.php";
-NSString *const  LOGIN_CACHE_URL = @"http://50.22.62.67/game/sdk/login_cache.php";
-NSString *const  REVOKE_BIND_CACHE_URL = @"http://50.22.62.67/game/sdk/remove_bind_cache.php";
-
-NSString *const  IS_BIND_CACHE_URL = @"http://50.22.62.67/game/sdk/is_bind_cache.php";
-
-NSString *const CREATE_USER_CACHE = @"http://50.22.62.67/game/sdk/create_user_cache.php";
-NSString *const SWITCH_LOGIN_URL = @"http://50.22.62.67/game/sdk/switch_login_cache.php";
+NSString *const SECRET = @"1eish4i*(kedjkgrefdwk23-893";
+//NSString *const LOGIN_URL = @"http://50.22.62.67/game/sdk/login.php";
+//
+//NSString *const CREATE_USER = @"http://50.22.62.67/game/sdk/create_user.php";
+//
+//NSString *const LOGIN_TOKEN_URL = @"http://50.22.62.67/game/sdk/loginToken.php";
+//
+//NSString *const PAY_URL = @"http://50.22.62.67/payment/sdk/sdk.php";
+//
+//NSString *const IOS_PAY_URL = @"http://50.22.62.67/payment/sdk/ios_sdk.php";
+//
+//NSString *const SERVERLIST_URL = @"http://50.22.62.67/game/sdk/server.php";
+//
+//
+//NSString *const IS_BIND_URL = @"http://50.22.62.67/game/sdk/is_bind.php";
+//
+//NSString *const BIND_URL = @"http://50.22.62.67/game/sdk/binded.php";
+//
+//NSString *const PLAY_LOG_URL = @"http://50.22.62.67/game/sdk/playlog.php";
+//
+//NSString *const VERSION_CHECK_URL = @"http://50.22.62.67/game/sdk/version_check.php";
+////参数配置读取
+//NSString *const PARAM_URL = @"http://50.22.62.67/game/sdk/param.php";
+////mycard auth code
+//NSString *const MYCARD_AUTHCODE = @"http://50.22.62.67/payment/sdk/mycard/sdk_auth.php";
+//
+//NSString *const MYCARD_PAY_URL = @"http://50.22.62.67/payment/sdk/mycard/pay.php";
+//
+//NSString *const PAYPAL_PAY_URL = @"http://50.22.62.67/payment/sdk/paypal/pay.php";
+//
+////---------cache
+//NSString *const BIND_CACHE_URL = @"http://50.22.62.67/game/sdk/binded_cache.php";
+//NSString *const  LOGIN_CACHE_URL = @"http://50.22.62.67/game/sdk/login_cache.php";
+//NSString *const  REVOKE_BIND_CACHE_URL = @"http://50.22.62.67/game/sdk/remove_bind_cache.php";
+//
+//NSString *const  IS_BIND_CACHE_URL = @"http://50.22.62.67/game/sdk/is_bind_cache.php";
+//
+//NSString *const CREATE_USER_CACHE = @"http://50.22.62.67/game/sdk/create_user_cache.php";
+//NSString *const SWITCH_LOGIN_URL = @"http://50.22.62.67/game/sdk/switch_login_cache.php";
 //----------update
 
 //NSString *const  SWITCH_LOGIN_URL_UPDATE = @"http://50.22.62.67/server/sdk/switch_login_cache_u.php";
@@ -75,11 +75,11 @@ NSString *const SWITCH_LOGIN_URL = @"http://50.22.62.67/game/sdk/switch_login_ca
 
 NSString *const  LOGIN_CACHE_URL_IOS = @"http://sdk.lefou666.com/login/r.json";
 
-NSString *const  SWITCH_LOGIN_URL_UPDATE_IOS = @"http://50.22.62.67/server/sdk/switch_login_cache_u_ios.php";
-NSString *const  IS_BIND_CACHE_URL_UPDATE_IOS = @"http://50.22.62.67/server/sdk/is_bind_cache_u_ios.php";
-NSString *const  REVOKE_BIND_CACHE_URL_UPDATE_IOS = @"http://50.22.62.67/server/sdk/remove_bind_cache_u_ios.php";
-NSString *const  BIND_CACHE_URL_UPDATE_IOS = @"http://50.22.62.67/server/sdk/binded_cache_u_ios.php";
-NSString *const  CREATE_USER_CACHE_UPDATE_IOS = @"http://50.22.62.67/server/sdk/create_user_cache_ios.php";
+NSString *const  SWITCH_LOGIN_URL_UPDATE_IOS = @"http://sdk.lefou666.com/login/switch.json";
+NSString *const  IS_BIND_CACHE_URL_UPDATE_IOS = @"http://sdk.lefou666.com/login/isbind.json";
+NSString *const  REVOKE_BIND_CACHE_URL_UPDATE_IOS = @"http://sdk.lefou666.com/login/unbind.json";
+NSString *const  BIND_CACHE_URL_UPDATE_IOS = @"http://sdk.lefou666.com/login/bind.json";
+NSString *const  CREATE_USER_CACHE_UPDATE_IOS = @"http://sdk.lefou666.com/login/create.json";
 
 
 //----------

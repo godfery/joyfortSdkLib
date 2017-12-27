@@ -45,9 +45,15 @@
 
 +(NSString*)getFacebook;
 
++(void)setT:(NSString*)id;
 
++(NSString*)getT;
 
++(void)setAccessToken:(NSString*)id;
 
++(NSString*)getAccessToken;
+
++(void) parseLoginJson:(NSString*)s;
 
 //得到时间戳
 +(int)getTimeStamp;

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2DDA59641FEF4EE80019271C /* joyfortSdkLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DDA59631FEF4EE80019271C /* joyfortSdkLib.framework */; };
 		2DDA59681FEF4F300019271C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DDA59671FEF4F300019271C /* SystemConfiguration.framework */; };
 		2DDA596E1FEF50590019271C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DDA596D1FEF50590019271C /* CFNetwork.framework */; };
 		2DDA59701FEF50780019271C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DDA596F1FEF50780019271C /* MobileCoreServices.framework */; };
@@ -92,7 +91,6 @@
 				2DDA59701FEF50780019271C /* MobileCoreServices.framework in Frameworks */,
 				2DDA596E1FEF50590019271C /* CFNetwork.framework in Frameworks */,
 				2DDA59681FEF4F300019271C /* SystemConfiguration.framework in Frameworks */,
-				2DDA59641FEF4EE80019271C /* joyfortSdkLib.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,

@@ -26,6 +26,10 @@ static NSString* jf_uid;
 
 static NSString* facebook;
 
+static NSString* t;
+
+static NSString* accessToken;
+
 @implementation JoyfortParam
 
 +(void)setSid:(NSString*)sidStr{
@@ -97,6 +101,40 @@ static NSString* facebook;
 
 +(NSString*)getFacebook {
     return facebook;
+}
+
+
++(void)setT:(NSString*)id {
+    t = id;
+}
+
++(NSString*)getT {
+    return t;
+}
+
++(void)setAccessToken:(NSString*)id {
+    accessToken = id;
+}
+
+
++(NSString*)getAccessToken {
+    return accessToken;
+}
+
++(void) parseLoginJson:(NSString*)s {
+    NSError * error;
+    if ([NSJSONSerialization isValidJSONObject:s]) {
+        NSDictionary *weatherDic = [NSJSONSerialization JSONObjectWithData:s options:NSJSONReadingMutableLeaves error:&error];
+        NSInteger status = [weatherDic objectForKey:@"status"];
+        if (status == 1) {
+            t =[weatherDic objectForKey:@"t"];
+            accessToken = [weatherDic objectForKey:@"accessToken"];
+            
+        }
+    }
+    
+    
+    
 }
 
 //生成时间戳

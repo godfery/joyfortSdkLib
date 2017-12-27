@@ -345,6 +345,9 @@ static JoyfortCache * sharedSingleton = nil;
     [requestForm setPostValue:flag forKey:@"flag"];
     [requestForm setPostValue:uid forKey:@"uid"];
     [requestForm setPostValue:facebook forKey:@"facebook"];
+    [requestForm setPostValue:[JoyfortParam getAccessToken] forKey:@"accessToken"];
+    [requestForm setPostValue:[JoyfortParam getT] forKey:@"t"];
+    
     
     
     [requestForm setPostValue:[JoyfortParam getCode] forKey:@"code"];
@@ -429,6 +432,9 @@ static JoyfortCache * sharedSingleton = nil;
     [requestForm setPostValue:uid forKey:@"uid"];
     [requestForm setPostValue:flag forKey:@"loginFlag"];
     [requestForm setPostValue:[JoyfortParam getExtendDeviceId] forKey:@"extend_device_id"];
+    [requestForm setPostValue:[JoyfortParam getAccessToken] forKey:@"accessToken"];
+    [requestForm setPostValue:[JoyfortParam getT] forKey:@"t"];
+
     
     
     [requestForm startSynchronous];
@@ -568,6 +574,10 @@ static JoyfortCache * sharedSingleton = nil;
     [requestForm setPostValue:password forKey:@"password"];
     [requestForm setPostValue:token forKey:@"token"];
     [requestForm setPostValue:[JoyfortParam getExtendDeviceId] forKey:@"extend_device_id"];
+    [requestForm setPostValue:[JoyfortParam getAccessToken] forKey:@"accessToken"];
+    [requestForm setPostValue:[JoyfortParam getT] forKey:@"t"];
+
+    
     [requestForm startSynchronous];
     
     NSString *jsonStr = nil;
@@ -629,6 +639,11 @@ static JoyfortCache * sharedSingleton = nil;
     [requestForm setPostValue:[JoyfortParam getExtendDeviceId] forKey:@"extend_device_id"];
     [requestForm setPostValue:[JoyfortParam getCode] forKey:@"code"];
     [requestForm setPostValue:flag forKey:@"flag"];
+    
+    [requestForm setPostValue:[JoyfortParam getAccessToken] forKey:@"accessToken"];
+    [requestForm setPostValue:[JoyfortParam getT] forKey:@"t"];
+
+    
     
     [requestForm startSynchronous];
     
