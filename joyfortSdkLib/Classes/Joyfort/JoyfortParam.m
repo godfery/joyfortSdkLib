@@ -123,15 +123,22 @@ static NSString* accessToken;
 
 +(void) parseLoginJson:(NSString*)s {
     NSError * error;
-    if ([NSJSONSerialization isValidJSONObject:s]) {
-        NSDictionary *weatherDic = [NSJSONSerialization JSONObjectWithData:s options:NSJSONReadingMutableLeaves error:&error];
-        NSInteger status = [weatherDic objectForKey:@"status"];
-        if (status == 1) {
+    NSData *data = [s dataUsingEncoding:NSUTF8StringEncoding];
+    BOOL b = [NSJSONSerialization isValidJSONObject:data];
+    NSLog(@"%@",b);
+//    if ([NSJSONSerialization isValidJSONObject:s]==YES) {
+        NSDictionary *weatherDic = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableLeaves error:&error];
+    if(error == nil) {
+         id status = [weatherDic objectForKey:@"status"];
+        NSInteger stat = [status integerValue];
+        if (stat == 1) {
             t =[weatherDic objectForKey:@"t"];
             accessToken = [weatherDic objectForKey:@"accessToken"];
             
         }
     }
+    
+//    }
     
     
     
