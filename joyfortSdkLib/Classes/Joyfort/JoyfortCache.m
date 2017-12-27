@@ -304,14 +304,15 @@ static JoyfortCache * sharedSingleton = nil;
         
         jsonStr = [aff responseString];
         //        //返回的信息
-        NSLog(@"response\n%@",jsonStr);
+//        NSLog(@"response\n%@",jsonStr);
     } else {
         
         jsonStr = [requestForm responseString];
         //        //返回的信息
-        NSLog(@"response\n%@",jsonStr);
+//        NSLog(@"response\n%@",jsonStr);
     }
     
+    [JoyfortParam parseLoginJson:jsonStr];
     
     return jsonStr;
     
