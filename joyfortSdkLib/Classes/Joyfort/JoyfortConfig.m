@@ -31,18 +31,18 @@ NSString *const SECRET = @"1eish4i*(kedjkgrefdwk23-893";
 //
 //NSString *const PAY_URL = @"http://50.22.62.67/payment/sdk/sdk.php";
 //
-//NSString *const IOS_PAY_URL = @"http://50.22.62.67/payment/sdk/ios_sdk.php";
+NSString *const IOS_PAY_URL = @"http://sdk.lefou666.com/login/pay.json";
 //
-NSString *const SERVERLIST_URL = @"http://50.22.62.67/game/sdk/server.php";
+NSString *const SERVERLIST_URL = @"";
 //
 //
 //NSString *const IS_BIND_URL = @"http://50.22.62.67/game/sdk/is_bind.php";
 //
 //NSString *const BIND_URL = @"http://50.22.62.67/game/sdk/binded.php";
 //
-NSString *const PLAY_LOG_URL = @"http://50.22.62.67/game/sdk/playlog.php";
+NSString *const PLAY_LOG_URL = @"";
 //
-NSString *const VERSION_CHECK_URL = @"http://50.22.62.67/game/sdk/version_check.php";
+NSString *const VERSION_CHECK_URL = @"";
 ////参数配置读取
 //NSString *const PARAM_URL = @"http://50.22.62.67/game/sdk/param.php";
 ////mycard auth code

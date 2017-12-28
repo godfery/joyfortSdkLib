@@ -45,7 +45,7 @@ PODS:
     - FBSDKCoreKit
   - FBSDKShareKit (4.29.0):
     - FBSDKCoreKit
-  - joyfortSdkLib (0.1.0):
+  - joyfortSdkLib (0.1.5):
     - AFNetworking (~> 2.3)
     - ASIHTTPRequest
     - Bolts (~> 1.0)
@@ -72,7 +72,7 @@ SPEC CHECKSUMS:
   FBSDKCoreKit: 6f139173dc63a1deaff4430a55f2fe5bb222d2af
   FBSDKLoginKit: 56a057ca6822535ea0faa25f57a7c41edb697fd4
   FBSDKShareKit: 18a2cd118aef11dd657fe7e8b64bae5c719088b2
-  joyfortSdkLib: 7f309a38470dc6615994872e5d193b9431eccd34
+  joyfortSdkLib: 2986ed66419006f6e20763e776da9ba4d36ec916
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
 
 PODFILE CHECKSUM: f43f9a71b0e4665d7e4356f35b901de387f7f569

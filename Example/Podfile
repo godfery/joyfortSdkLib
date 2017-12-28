@@ -5,7 +5,7 @@ pod 'FBSDKLoginKit'
 pod 'FBSDKShareKit'
 pod 'ASIHTTPRequest'
 target 'joyfortSdkLib_Example' do
-#  pod 'joyfortSdkLib', :path => '../'
+  pod 'joyfortSdkLib', :path => '../'
   
   
   target 'joyfortSdkLib_Tests' do

@@ -10,10 +10,12 @@
 #endif
 #endif
 
+#import "IOSPay.h"
 #import "JoyfortCache.h"
 #import "JoyfortConfig.h"
 #import "JoyfortConfigIp.h"
 #import "JoyfortParam.h"
+#import "JoyfortPay.h"
 #import "JoyfortUtil.h"
 #import "PayParam.h"
 
